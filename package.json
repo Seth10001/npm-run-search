@@ -1,0 +1,26 @@
+{
+  "name": "npm-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/index.test"
+  },
+  "bin": {
+    "nr": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fuzzy": "^0.1.3",
+    "inquirer": "^8.2.0",
+    "inquirer-autocomplete-prompt": "^1.4.0",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "mock-fs": "^5.1.1",
+    "sinon": "^11.1.2"
+  }
+}
